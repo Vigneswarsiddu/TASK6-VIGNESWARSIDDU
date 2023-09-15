@@ -156,7 +156,8 @@ I'm going to divide the data into features (X) and target (y), which are split i
 
 ### OBSERVATION: Hence it is classified as, ['Credit reporting, repair, or other'], Now Let's see the predicted Complaint and whether it's going to be right or wrong.
 
-<img width="960" alt="image" src="https://github.com/Vigneswarsiddu/TASK6-VIGNESWARSIDDU/assets/93468524/5b15b35a-7ba0-4875-8f44-8ef3ef4de9f2">
+<img width="956" alt="image" src="https://github.com/Vigneswarsiddu/TASK6-VIGNESWARSIDDU/assets/93468524/1acd3884-0773-4979-883e-1e1eee8ef39a">
+
 
 ### OBSERVATION: Hence, If you see from the above output my model is correct, that complaint was predicted as ['Credit reporting, repair, or other'].
 
