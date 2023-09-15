@@ -27,4 +27,9 @@ Algorithms used: Linear Support Vector Machine, Multinomial Naive Bayes.
 
 ##### STEP 1: Download Dataset from the source: https://catalog.data.gov/dataset/consumer-complaint-database [and I'm using Google Collaboratory Notebook, and I will access the dataset from the MyDrive I'm uploaded]
 ##### -> Loading and Importing the libraries:
+<img width="959" alt="image" src="https://github.com/Vigneswarsiddu/TASK6-VIGNESWARSIDDU/assets/93468524/248b8015-afe8-430c-a9ff-c23df6cc13c3">
+
+### 1. Explanatory Data Analysis and Feature Engineering
+
+
 
