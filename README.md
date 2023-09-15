@@ -16,3 +16,5 @@ Steps to be followed -
 4. Comparison of model performance
 5. Model Evaluation
 6. Prediction
+
+#### SOLUTION:
