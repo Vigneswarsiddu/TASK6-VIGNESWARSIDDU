@@ -142,6 +142,35 @@ I'm going to divide the data into features (X) and target (y), which are split i
 
 ![image](https://github.com/Vigneswarsiddu/TASK6-VIGNESWARSIDDU/assets/93468524/a48217a2-35fd-4cfa-9760-4a7ec401ed42)
 
+##### OBSERVATION: From the above confusion matrix, I can say that it looks good with a clear diagonal that represents correct classifications.
+
+## 6. Prediction
+
+##### STEP 1: predictions on unseen data.
+<img width="960" alt="image" src="https://github.com/Vigneswarsiddu/TASK6-VIGNESWARSIDDU/assets/93468524/e6e8c767-387f-4815-8dec-47e79a2f833f">
+
+##### STEP 2: Let's see what is the Actual classification that my model gives to the new complaint.
+###### [NOTE: My complaint is - The date of my first letter was XXXX. I sent a letter regarding inaccurate and unknown things on my credit report. I want the erroneous, inaccurate, and incomplete items on my report to be deleted immediately. I assure you that it was in fact me who filed my complaint due to the negligence your company has shown in reference to my credit report and my complaint.. In fact if you do not honor my original request to delete the items contained in my previous letter, dated XX/XX/21 sent via certified mail, I will file a complaint with the Federal Trade Commission against your company as well as seek legal council for damages for the XXXX XXXX and emotional XXXX XXXXour company 's negligence in reference to this deformation to my reputation due to your false report. This is my 2nd and final attempt to get this matter resolved. Any further attempts will include additional complaints to the XXXX FTC as well as my States Attorney General 's Office. You have had more than 30 days to complete your investigation, and you have failed to respond with in that given amount of time. Be advised that the description of the procedure used to determine the accuracy and completeness of the information is hereby requested as well. I insist you finish your investigation immediately by deleting the items in question and sending me a free copy of my credit reporting showing the changes have been made.]
+
+<img width="771" alt="image" src="https://github.com/Vigneswarsiddu/TASK6-VIGNESWARSIDDU/assets/93468524/898c5f30-f1ba-4f66-bb99-6bc108c2af6f">
+
+### OBSERVATION: Hence it is classified as, ['Credit reporting, repair, or other'], Now Let's see the predicted Complaint and whether it's going to be right or wrong.
+
+<img width="960" alt="image" src="https://github.com/Vigneswarsiddu/TASK6-VIGNESWARSIDDU/assets/93468524/5b15b35a-7ba0-4875-8f44-8ef3ef4de9f2">
+
+### OBSERVATION: Hence, If you see from the above output my model is correct, that complaint was predicted as ['Credit reporting, repair, or other'].
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
