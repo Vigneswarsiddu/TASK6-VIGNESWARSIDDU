@@ -22,5 +22,5 @@ Steps to be followed -
 This is a supervised text classification issue because each complaint is associated with a distinct product. We applied various machine learning algorithms to create more precise predictions in order to categorize future complaints.
 
 ##### My work outlook:
-complaints are the predefined categories.
+complaints are the predefined categories,
 Algorithms used: Linear Support Vector Machine, Multinomial Naive Bayes.
