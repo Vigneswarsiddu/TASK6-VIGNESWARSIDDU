@@ -22,5 +22,9 @@ Steps to be followed -
 This is a supervised text classification issue because each complaint is associated with a distinct product. We applied various machine learning algorithms to create more precise predictions in order to categorize future complaints.
 
 ##### My work outlook:
-complaints are the predefined categories,
+Complaints are the predefined categories,
 Algorithms used: Linear Support Vector Machine, Multinomial Naive Bayes.
+
+##### STEP 1: Download Dataset from the source: https://catalog.data.gov/dataset/consumer-complaint-database [and I'm using Google Collaboratory Notebook, and I will access the dataset from the MyDrive I'm uploaded]
+##### Loading and Importing the libraries
+
