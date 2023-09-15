@@ -29,7 +29,7 @@ Algorithms used: Linear Support Vector Machine, Multinomial Naive Bayes.
 ##### -> Importing the libraries:
 <img width="959" alt="image" src="https://github.com/Vigneswarsiddu/TASK6-VIGNESWARSIDDU/assets/93468524/248b8015-afe8-430c-a9ff-c23df6cc13c3">
 
-### 1. Explanatory Data Analysis and Feature Engineering
+## 1. Explanatory Data Analysis and Feature Engineering
 ##### STEP 2: Loading the Dataset:
 ##### OBSERVATION: Here there are more than 4 million instances (rows) and 18 features (columns).
 <img width="730" alt="image" src="https://github.com/Vigneswarsiddu/TASK6-VIGNESWARSIDDU/assets/93468524/23077b7b-cf2c-4183-88bb-f49ca78a1a68">
@@ -77,10 +77,87 @@ Algorithms used: Linear Support Vector Machine, Multinomial Naive Bayes.
 #### 5. Time Series
 <img width="952" alt="image" src="https://github.com/Vigneswarsiddu/TASK6-VIGNESWARSIDDU/assets/93468524/3572d661-5e8e-469c-b148-849119fac27c">
 
+<img width="960" alt="image" src="https://github.com/Vigneswarsiddu/TASK6-VIGNESWARSIDDU/assets/93468524/bd06bbeb-1742-47c7-b446-745d67e34f61">
+
 ##### OBSERVATION: if you observe from the above graphs, I can say that most customer complaints are due to:
-credit reporting, credit repair
-debt collection
-mortgage
+1. credit reporting, repair, or other
+2. debt collection
+3. credit card or prepaid card
+4. mortgage
+
+## 2. Text Pre-Processing
+#### BASIC INTRODUCTION:
+The text needs to be transformed into vectors so that the algorithms will be able to make predictions. In this case, it will be used the Term Frequency – Inverse Document Frequency (TFIDF) will be used to evaluate how important a word is to a document in a collection of documents.
+##### Formulae:
+TF - IDF is the product of the TF and IDF scores of the term.
+TF - IDF = TF / IDF
+
+<img width="939" alt="image" src="https://github.com/Vigneswarsiddu/TASK6-VIGNESWARSIDDU/assets/93468524/584983ed-d5cd-48ca-a2cd-cc19ec32ca82">
+
+<img width="956" alt="image" src="https://github.com/Vigneswarsiddu/TASK6-VIGNESWARSIDDU/assets/93468524/32908649-7ccf-4997-9114-4d23b70bdc20">
+<img width="960" alt="image" src="https://github.com/Vigneswarsiddu/TASK6-VIGNESWARSIDDU/assets/93468524/29e834bc-e394-4f3b-95fb-1ba38182906a">
+
+## 3. Selection of Multi Classification model
+
+1: Linear Support Vector Machine
+2: Multinomial Naive Bayes
+
+##### STEP-1: Splitting the data into train and test sets
+I'm going to divide the data into features (X) and target (y), which are split into train (75%) and test (25%).
+
+<img width="960" alt="image" src="https://github.com/Vigneswarsiddu/TASK6-VIGNESWARSIDDU/assets/93468524/6047e760-ccfb-4496-b248-ed6648427d41">
+
+## 4. Comparison of model performance
+<img width="960" alt="image" src="https://github.com/Vigneswarsiddu/TASK6-VIGNESWARSIDDU/assets/93468524/aedefd6c-8d67-4470-8524-bc025c6a70ec">
+
+##### VISUALIZATION - GRAPHS with Mean Accuracy and Standard Deviation
+
+##### 1. Values -
+<img width="493" alt="image" src="https://github.com/Vigneswarsiddu/TASK6-VIGNESWARSIDDU/assets/93468524/548094b0-ea98-4410-b5ce-e96006ef19a3">
+
+##### 2. Distributions -
+<img width="723" alt="image" src="https://github.com/Vigneswarsiddu/TASK6-VIGNESWARSIDDU/assets/93468524/225c632a-f42a-4636-81e1-9a0b633d7bc7">
+
+##### 3. 2D Distributions -
+<img width="709" alt="image" src="https://github.com/Vigneswarsiddu/TASK6-VIGNESWARSIDDU/assets/93468524/04d504cc-d200-4461-b7a9-ecc5823f52b2">
+
+##### 4. Time Series -
+<img width="733" alt="image" src="https://github.com/Vigneswarsiddu/TASK6-VIGNESWARSIDDU/assets/93468524/a9df9ec4-e02c-45e9-8225-b39844500dba">
+
+<img width="776" alt="image" src="https://github.com/Vigneswarsiddu/TASK6-VIGNESWARSIDDU/assets/93468524/a1f2761f-cf47-436c-b775-5cf3d4c84ad1">
+
+<img width="957" alt="image" src="https://github.com/Vigneswarsiddu/TASK6-VIGNESWARSIDDU/assets/93468524/3b69f0ac-d309-4fc0-842d-04817d24292b">
+
+##### OBSERVATION: From the Above Graph I can say that the best Suitable mean accuracy is -- LinearSVC
+
+## 5. Model Evaluation
+<img width="960" alt="image" src="https://github.com/Vigneswarsiddu/TASK6-VIGNESWARSIDDU/assets/93468524/d7ff6648-9905-410e-afc6-b82d93ae9753">
+
+##### STEP-1: Make a Classification metrics with Precision, Recall, F1-score.
+<img width="960" alt="image" src="https://github.com/Vigneswarsiddu/TASK6-VIGNESWARSIDDU/assets/93468524/781e6f3d-caca-4d1b-8925-eab6968f3e1c">
+
+##### OBSERVATION: From the above Output I can say that the classes that can be classified with more precision are Credit reporting, repair, or other - with 88%, Mortgage with 85%, and so on.
+##### STEP 2: Confusion Matrix -
+<img width="959" alt="image" src="https://github.com/Vigneswarsiddu/TASK6-VIGNESWARSIDDU/assets/93468524/d3216e89-e800-4e20-a49f-873340c8f4f6">
+
+![image](https://github.com/Vigneswarsiddu/TASK6-VIGNESWARSIDDU/assets/93468524/a48217a2-35fd-4cfa-9760-4a7ec401ed42)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
