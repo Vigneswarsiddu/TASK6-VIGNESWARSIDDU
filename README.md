@@ -34,7 +34,9 @@ Algorithms used: Linear Support Vector Machine, Multinomial Naive Bayes.
 ##### OBSERVATION: Here there are more than 4 million instances (rows) and 18 features (columns).
 <img width="730" alt="image" src="https://github.com/Vigneswarsiddu/TASK6-VIGNESWARSIDDU/assets/93468524/23077b7b-cf2c-4183-88bb-f49ca78a1a68">
 
-##### NOTE: The dataset contains features that are not necessary for the multi-classification. So I'm going to make another data frame that contains ‘Product’ and ‘Consumer complaint narrative’. (which is known as Consumer_complaint)
+##### NOTE: The above dataset contains features that are not necessary for the multi-classification. So I'm going to make another data frame that contains ‘Product’ and ‘Consumer complaint narrative’ in the below code. (which is known as Consumer_complaint)
+<img width="960" alt="image" src="https://github.com/Vigneswarsiddu/TASK6-VIGNESWARSIDDU/assets/93468524/1b1693f9-ce6d-4d3d-9f16-a3286456f416">
+<img width="767" alt="image" src="https://github.com/Vigneswarsiddu/TASK6-VIGNESWARSIDDU/assets/93468524/a978ca70-b106-4c8c-aa59-3f57df700333">
 
 
 
