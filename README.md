@@ -26,5 +26,5 @@ Complaints are the predefined categories,
 Algorithms used: Linear Support Vector Machine, Multinomial Naive Bayes.
 
 ##### STEP 1: Download Dataset from the source: https://catalog.data.gov/dataset/consumer-complaint-database [and I'm using Google Collaboratory Notebook, and I will access the dataset from the MyDrive I'm uploaded]
-##### Loading and Importing the libraries:
+##### -> Loading and Importing the libraries:
 
